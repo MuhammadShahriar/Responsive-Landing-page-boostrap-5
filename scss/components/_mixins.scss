@@ -9,3 +9,21 @@
 @mixin gradient-text {
     color: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95)) !important;
 }
+
+@mixin button-outline-variant(
+  $color : $primary,
+  $color-hover: color-contrast($color),
+  $active-background: red,
+  $active-border: $color,
+  $active-color: color-contrast($active-background)
+) {
+  color: $color;
+  border-color: $color;
+
+  &:hover {
+    color: $color-hover;
+    background-color: $active-background;
+    border-color: $active-border;
+  }
+
+}
