@@ -1,0 +1,11 @@
+@use "../custom" as *;
+
+// GRADIENT
+@mixin gradient-background {
+    background-color: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95)) !important;
+}
+
+// GRADIENT IMPORTANT
+@mixin gradient-text {
+    color: linear-gradient(to right, rgba($primary, 0.95), rgba($secondary, 0.95)) !important;
+}
