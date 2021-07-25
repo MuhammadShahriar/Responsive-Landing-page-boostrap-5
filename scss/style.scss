@@ -4,7 +4,9 @@
 @use "components/typography";
 @use "components/mixins";
 
+
 // IMOORT THE SECTIONS
 @use "sections/navbar";
 @use "sections/intro-section";
-
+@use "sections/companies";
+@use "sections/services"

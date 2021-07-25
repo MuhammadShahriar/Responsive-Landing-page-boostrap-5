@@ -3140,7 +3140,6 @@ textarea.form-control-lg {
 
 .btn-outline-primary {
   color: #296cc4;
-  background-color: white;
   border-color: #296cc4;
 }
 .btn-outline-primary:hover {
@@ -10761,6 +10760,13 @@ textarea.form-control-lg {
   font-size: 1.5rem;
 }
 
+.heading-line {
+  background-color: #296cc4;
+  width: 13rem;
+  height: 0.2rem;
+  margin: 0 auto;
+}
+
 @media (min-width: 576px) {
   .menu li {
     padding: 0.5rem 0.5rem;
@@ -10787,7 +10793,7 @@ textarea.form-control-lg {
 }
 
 .intro-section {
-  padding: 3rem 0.75rem;
+  padding: 2rem 0.75rem;
   width: 100%;
 }
 .intro-section button {
@@ -10807,6 +10813,23 @@ textarea.form-control-lg {
 .intro-title {
   display: flex;
   flex-direction: column;
+}
+
+.companies {
+  margin: 3rem 0;
+}
+.companies__logo-box {
+  max-width: 100%;
+  height: 3rem;
+  text-align: center;
+  padding: 0.5rem;
+  margin-bottom: 3rem;
+}
+.companies__logo-box img {
+  height: 100%;
+}
+.companies__logo-box img:hover {
+  filter: grayscale(120);
 }
 
 /*# sourceMappingURL=style.css.map */
