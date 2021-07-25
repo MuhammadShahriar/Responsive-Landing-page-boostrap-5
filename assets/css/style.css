@@ -10911,4 +10911,43 @@ textarea.form-control-lg {
   }
 }
 
+.testimonials {
+  background-color: #296cc4;
+}
+.testimonials__card {
+  background-color: #fff;
+  padding: 2rem 1.125rem;
+  border-radius: 0.625rem;
+  max-height: auto;
+  text-align: center;
+  color: #000;
+}
+.testimonials__card i {
+  font-size: 1.5rem;
+  color: #296cc4;
+}
+.testimonials__card .ratings {
+  padding: 1.5rem;
+}
+.testimonials__picture {
+  width: 6rem;
+  height: 6rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.testimonials__picture img {
+  border: 0.325rem solid rgba(41, 108, 196, 0.7);
+}
+.testimonials__info {
+  padding-top: 4rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: 500;
+}
+.testimonials__info h3 {
+  padding-top: 0.8rem;
+  text-transform: capitalize;
+}
+
 /*# sourceMappingURL=style.css.map */
