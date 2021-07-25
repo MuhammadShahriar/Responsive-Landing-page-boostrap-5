@@ -1,3 +1,44 @@
+@use "../custom" as *;
+
 .btn-outline-primary {
     background-color: $white !important;
+}
+
+.btn-outline-primary:hover {
+    background-color: $primary !important;
+}
+
+.btn_rounded {
+    display: flex;
+    position: relative;
+    padding: 0.8375rem 4.375rem 0.8375rem 1.25rem;
+    font-weight: 600;
+    font-size: 1.2rem;
+
+    span {
+        position: absolute;
+        top: 50%;
+        right: 5px;
+        width: 2.5rem;
+        height: 2.5rem;
+        transform: translateY(-50%);
+        border-radius: 50%;
+        background-color: $primary;
+
+        i {
+            color: $white;
+            font-size: 1rem;
+            line-height: 2.5rem;
+        }
+    }
+
+    &:hover {
+        span {
+            background-color: $white;
+    
+            i {
+                color: $primary;
+            }
+        }
+    }
 }

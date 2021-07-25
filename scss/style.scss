@@ -3,10 +3,11 @@
 // IMORT THE COMPONENTS
 @use "components/typography";
 @use "components/mixins";
+@use "components/button";
 
 
 // IMOORT THE SECTIONS
 @use "sections/navbar";
 @use "sections/intro-section";
 @use "sections/companies";
-@use "sections/services"
+@use "sections/services";

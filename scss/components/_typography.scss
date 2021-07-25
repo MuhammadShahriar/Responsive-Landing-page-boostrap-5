@@ -17,9 +17,24 @@
 
 }
 
+.display-3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800 !important;
+
+    &--title {
+        font-size: 1.875rem;
+        color: $primary;
+    }
+}
+
 .heading-line {
     background-color: $primary;
     width: 13rem;
     height: 0.2rem;
     margin: 0 auto;
+}
+
+.border-right {
+    border-right: 0.1rem solid $gray-500;
+    height: 100%;
 }
